@@ -24,6 +24,8 @@ with open('/Users/yucelyavuz/07_GenAI/50_credentials/01_credentials.yml') as fil
     SERPER_API_KEY = credentials['serper']
     HUGGINGFACE_API_KEY = credentials['huggingface']
 
+# test github
+
 # Load sample data
 df = pd.read_csv("/Users/yucelyavuz/07_GenAI/21_Data_Copilot/data/sample_data.csv", encoding='windows-1252')
 df['Order Date'] = pd.to_datetime(df['Order Date'])
